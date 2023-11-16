@@ -28,8 +28,11 @@ console.log(Lastname);//-INIZIALIZZATA
 const Color = prompt('abbiamo quasi finito! Dimmi il tuo colore preferito'); //-DICHIARATA
 console.log(Color);//-INIZIALIZZATA
 
+//dai i risultati della password
+
+//variabile
 const password = Name + Lastname + Color;
 console.log(password);
-
+//messaggio
 const result = document.getElementById('message')
 result.innerHTML= `ecco la tua nuova password: ${password}`
