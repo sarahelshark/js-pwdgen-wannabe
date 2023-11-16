@@ -11,7 +11,11 @@ document.getElementById('Name');
 
 //console.log(document.getElementById('name'));
 //selezione html tag
-
+/**tools:
+ * -variabile
+ * -backticks
+ * -prompt
+ */
 const Name = prompt('Come ti chiami?') //variabile username creata -DICHIARATA
 console.log(Name);//loggo in console la var creata-INIZIALIZZATA
 
