@@ -16,12 +16,15 @@ document.getElementById('Name');
  * -backticks
  * -prompt
  */
+// chiedo il nome e lo salvo in una variabile,
 const Name = prompt('Come ti chiami?') //variabile username creata -DICHIARATA
 console.log(Name);//loggo in console la var creata-INIZIALIZZATA
 
+//chedo anche il cognome e salvo sempre in variabile,
 const Lastname = prompt('...e il tuo cognome?'); // -DICHIARATA
 console.log(Lastname);//-INIZIALIZZATA
 
+//infine, chiedo il colore prefe,
 const Color = prompt('abbiamo quasi finito! Dimmi il tuo colore preferito'); //-DICHIARATA
 console.log(Color);//-INIZIALIZZATA
 
