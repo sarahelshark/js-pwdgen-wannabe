@@ -33,6 +33,6 @@ console.log(Color);//-INIZIALIZZATA
 //variabile
 const password = Name + Lastname + Color;
 console.log(password);
-//messaggio
+//messaggio stampato in pagina
 const result = document.getElementById('message')
 result.innerHTML= `ecco la tua nuova password: ${password}`
