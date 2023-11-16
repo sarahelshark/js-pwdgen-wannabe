@@ -12,14 +12,17 @@ document.getElementById('Name');
 //console.log(document.getElementById('name'));
 //selezione html tag
 
-const Name = 'Fabio'; //variabile username creata -DICHIARATA
-console.log(Name)//loggo in console la var creata-INIZIALIZZATA
+const Name = prompt('Come ti chiami?') //variabile username creata -DICHIARATA
+console.log(Name);//loggo in console la var creata-INIZIALIZZATA
 
-const Lastname = 'Pacifici'; // -DICHIARATA
-console.log(Lastname)//-INIZIALIZZATA
+const Lastname = prompt('...e il tuo cognome?'); // -DICHIARATA
+console.log(Lastname);//-INIZIALIZZATA
 
-const Color = 'Blu'; //-DICHIARATA
-console.log(Color)//-INIZIALIZZATA
+const Color = prompt('abbiamo quasi finito! Dimmi il tuo colore preferito'); //-DICHIARATA
+console.log(Color);//-INIZIALIZZATA
 
-const password = Name + Lastname + Color
-console.log(password)
+const password = Name + Lastname + Color;
+console.log(password);
+
+const result = document.getElementById('message')
+result.innerHTML= `ecco la tua nuova password: ${password}`
