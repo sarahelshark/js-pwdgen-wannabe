@@ -35,4 +35,4 @@ const password = Name + Lastname + Color;
 console.log(password);
 //messaggio stampato in pagina
 const result = document.getElementById('message')
-result.innerHTML= `ecco la tua nuova password: ${password}`
+result.innerHTML= `ecco la tua nuova password: ${password}23`
